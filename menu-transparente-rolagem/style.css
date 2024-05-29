@@ -1,0 +1,81 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+html{
+  height: 300vh;
+}
+
+header{
+  width: 100%;
+  padding: 60px 4%;
+  position:fixed;
+  top: 0;
+  left: 0;
+  transition: 0.4s;
+
+}
+header.rolagem{
+  padding: 20px 4%;
+  background-color: #fff;
+}
+header.rolagem a, header.rolagem i{
+  color: rgb(245, 84, 84);
+}
+.box-container{
+  background-image: url('./img/paisagem.jpg');
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
+.box-container h1{
+  margin-top: 3rem;
+  align-self: center;
+  justify-self: center;
+  font-size: 2rem;
+  text-transform:uppercase ;
+  color: #fff;
+  backdrop-filter: blur(10px);
+
+}
+.box-container h1 span{
+     color: rgb(245, 84, 84);
+}
+.container{
+ max-width: 1280px;
+ margin: auto;
+
+}
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.flex i {
+  font-size: 2rem;
+  color: #fff;
+}
+.flex ul li{
+  display: inline-block;
+  margin: 0 20px;
+}
+.flex a {
+  font-size: 1rem;
+  color: #fff;
+  text-transform: uppercase;
+}
+.btn-contato button{
+  padding: 8px 12px;
+  font-size: 1.2rem;
+  background-color: rgb(245, 84, 84);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+}

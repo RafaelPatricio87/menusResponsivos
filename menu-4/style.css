@@ -54,6 +54,8 @@ body{
   align-items: center;
   font-size: 1.8rem;
   z-index: 4;
+ 
+
 }
 .nav-links-mobile{
   display: flex;
@@ -74,19 +76,24 @@ body{
   border: none;
   color: #fff;
   cursor: pointer;
+  transition: 0.4s;
   display: none;
+
 }
 .close{
   display: flex;
   margin-top: 1.2rem;
   margin-right: 1.2rem;
   align-self: flex-end;
+  
 }
 .close i {
   font-size: 2rem;
 }
 .flex{
+  transition: 0.4s;
   display: flex;
+
 }
 .container{
   display: flex;
@@ -128,5 +135,6 @@ body{
   }
   .hamburger{
     display: block;
+    
   }
 }
